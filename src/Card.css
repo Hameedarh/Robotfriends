@@ -1,0 +1,28 @@
+/* .con{
+    border: 1px solid green;
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 2%;
+    overflow-y: scroll;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.car{
+    background-color: rgb(216, 127, 11);
+    width: 23%;
+    border-radius: 10px;
+    height: 9em;
+} */
+.car{
+    background-color: rgb(216, 127, 11);
+    width: 23%;
+    border-radius: 10px;
+    /* height: 9em; */
+    text-align: center;
+}
+.car:hover{
+    transform: scale(1.06);
+}
