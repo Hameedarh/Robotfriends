@@ -15,7 +15,7 @@ function CardList (props){
               />
             ))
           }
-        </div>
+    </div>
  );
 }
 export default CardList;

@@ -15,15 +15,22 @@ class App extends Component{
   }
   addSearchInput= (event)=>{
     console.log(event.target.value)
+    this.setState({ SearchInput: event.target.value })
   }
 
   render(){
+    const filteredRobots = users.filter(item => (
+      item.name.toLowerCase().includes(this.state.SearchInput.toLowerCase())
+    ))
+
+    console.log("Filtered Robots: ", filteredRobots);
+
     return (
       <div className="App">
         <header className="App-header">
-        <SearchBox/>
+        <SearchBox addSearchInput={this.addSearchInput}/>
         {/* <CardList/> */}
-        <CardList users={users}/>
+        <CardList users={filteredRobots}/>
         </header>
       </div>
     );

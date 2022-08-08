@@ -24,5 +24,7 @@
     text-align: center;
 }
 .car:hover{
-    transform: scale(1.06);
+    transform: scale(1.04);
+    transition: 1s;
+    /* transition-timing-function: ease-in; */
 }
