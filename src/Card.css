@@ -18,13 +18,45 @@
 } */
 .car{
     background-color: rgb(216, 127, 11);
-    width: 23%;
+    width: 30%;
     border-radius: 10px;
     /* height: 9em; */
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .car:hover{
-    transform: scale(1.04);
-    transition: 1s;
+    transform: scale(1.03);
+    transition: 1s ease-in;
+    background-color:  #aef0bc;
+    color: rgb(216, 127, 11);
     /* transition-timing-function: ease-in; */
+}
+
+.but{
+    border: 1px solid #aef0bc;
+    width: 8em;
+    border-radius: 5px;
+    background-color: #aef0bc;
+    padding: 0.7em;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+.but:hover{
+    background-color: rgb(216, 127, 11);
+    border: 1px solid rgb(216, 127, 11);
+}
+a{
+    color: rgb(216, 127, 11);
+    text-decoration: none;
+}
+a:hover{
+    color: #aef0bc;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px){
+    .car{
+        width: 40%;
+        font-size: 0.7em;
+    }
 }

@@ -16,6 +16,9 @@ function Card(props){
                 <h4>{props.name}</h4>
                 <p>{props.username}</p>
                 <p>{props.email}</p>
+                <div className='but'>
+                    <a href="www.facebook.com">Contact me</a>
+                </div>
         </div>
     );
 }
