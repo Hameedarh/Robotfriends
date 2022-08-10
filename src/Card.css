@@ -54,9 +54,14 @@ a:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 700px){
     .car{
-        width: 45%;
-        font-size: 0.7em;
+        width: 100%;
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 750px){
+    .car{
+        width: 30%;
     }
 }
